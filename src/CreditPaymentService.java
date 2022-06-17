@@ -1,6 +1,5 @@
 public class CreditPaymentService {
     double rate = 9.99;
-    //int term;
 
     public double calculatePayment(double term, double amount) {
         double rateMonth = rate / 100 / 12;
